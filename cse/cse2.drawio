@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-03-28T17:08:06.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jVJafcqs_6lUTdbV_AqI" version="21.1.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1035" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RLW3RkN5RCq2m-9et4sf-21" target="RLW3RkN5RCq2m-9et4sf-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-21" value="House Rental Agency" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="369" y="390" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RLW3RkN5RCq2m-9et4sf-38" target="RLW3RkN5RCq2m-9et4sf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-38" value="Офіс" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="169" y="390" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RLW3RkN5RCq2m-9et4sf-39" target="RLW3RkN5RCq2m-9et4sf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-39" value="Tenant" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="49" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-40" value="Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="749" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RLW3RkN5RCq2m-9et4sf-41" target="RLW3RkN5RCq2m-9et4sf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLW3RkN5RCq2m-9et4sf-41" value="Офіс" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="549" y="390" width="100" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
