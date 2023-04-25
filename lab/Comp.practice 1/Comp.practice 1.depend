@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1664289553 source:g:\univer\lab\comp.practice 1\main.c
+	<stdio.h>
+	<conio.h>
+	<math.h>
+
