@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Сортування масивів</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(28, 0, 124, 255), stop:1 rgba(0, 26, 171, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="NumEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>70</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:30px;
+height:20px; 
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ComboSort">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:30px;
+height:20px; 
+}
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Блочне сортування</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сортування підрахунком</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Порозрядне сортування</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="Generate">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>70</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:30px;
+height:20px; 
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,40)
+}
+QPushButton:pressed{
+background-color: rgba(255,255,255,70)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Згенерувати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sort">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:30px;
+height:20px; 
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,40)
+}
+QPushButton:pressed{
+background-color: rgba(255,255,255,70)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Сортувати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Animation">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:60px;
+height:20px; 
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,40)
+}
+QPushButton:pressed{
+background-color: rgba(255,255,255,70)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Анімація</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Graph">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:10px;
+height:20px; 
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,40)
+}
+QPushButton:pressed{
+background-color: rgba(255,255,255,70)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Графік</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>330</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border:1px solid rgba(255,255,255,40);
+border-radius: 7px;
+width:50px;
+height:20px; 
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,40)
+}
+QPushButton:pressed{
+background-color: rgba(255,255,255,70)
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Збереження в текстовий файл</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

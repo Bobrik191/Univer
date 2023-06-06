@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T12:30:20.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="anyrISYuxn8qU7mkVT4i" version="21.3.5" type="device">
+  <diagram name="Страница 1" id="hD3gTe8wTLsGbvGPBa7Z">
+    <mxGraphModel dx="1434" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-1" value="«Office»&lt;br&gt;&lt;b&gt;Житлове агентство&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="120" y="332.5" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-2" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="pDaMqJPP7P3ToBmkJ1ZN-1" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;База даних&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Дати інформацію про житло()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Отримати інформацію про житло()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Шукати вільне житло()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="105" y="170" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="pDaMqJPP7P3ToBmkJ1ZN-3" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pDaMqJPP7P3ToBmkJ1ZN-1" target="pDaMqJPP7P3ToBmkJ1ZN-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="430" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-6" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Клієнт&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;operations&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Дати вимоги на житло()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Обирати житло із запропонованих()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Платити за оренду()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="430" y="220" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="pDaMqJPP7P3ToBmkJ1ZN-6" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Ріелтор&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;operations&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;Отримати вимоги на житло()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;Шукати житло в базі даних()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;Запропонувати житло()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="430" y="410" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="pDaMqJPP7P3ToBmkJ1ZN-9" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-11" value="use" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pDaMqJPP7P3ToBmkJ1ZN-9" target="pDaMqJPP7P3ToBmkJ1ZN-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="377" as="sourcePoint" />
+            <mxPoint x="320" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-12" value="use" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pDaMqJPP7P3ToBmkJ1ZN-6" target="pDaMqJPP7P3ToBmkJ1ZN-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="417" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Житло&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;operations&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Заселитись()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Платити за оренду()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720" y="290" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="pDaMqJPP7P3ToBmkJ1ZN-13" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDaMqJPP7P3ToBmkJ1ZN-15" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pDaMqJPP7P3ToBmkJ1ZN-6" target="pDaMqJPP7P3ToBmkJ1ZN-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="422.5" as="sourcePoint" />
+            <mxPoint x="730" y="422.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="280" />
+              <mxPoint x="690" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_qogA3TDu1hHZo2O3l--1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Власник житла&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;operations&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;Запропонувати житло для оренди()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;Прибрати житло()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4_qogA3TDu1hHZo2O3l--2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="4_qogA3TDu1hHZo2O3l--1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_qogA3TDu1hHZo2O3l--4" value="use" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_qogA3TDu1hHZo2O3l--1" target="pDaMqJPP7P3ToBmkJ1ZN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
